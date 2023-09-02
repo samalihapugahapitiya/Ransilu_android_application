@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="#E0FECA"
+        android:text="@string/MyCart"
+        android:textAlignment="center"
+        android:textColor="#0E6655"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--    <Button
+            android:id="@+id/button7"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0E6655"
+            android:text="@string/ADD"
+            android:textSize="18dp" />-->
+
+
+</LinearLayout>
